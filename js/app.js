@@ -1,4 +1,7 @@
-for (var number = 1; number <= 100; number++){
+
+function fizzbuzz(){
+	var input = document.getElementById('entry').value;
+	for (var number = 1; number <= input; number++){
 	if (number%3 == 0 && number%5 == 0) {
 		document.write("<p> fizzbuzz </p>");
 	}
@@ -12,4 +15,4 @@ for (var number = 1; number <= 100; number++){
 		document.write("<p>" + number + "</p>");
 	}
 }
-
+}
